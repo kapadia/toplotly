@@ -47,3 +47,6 @@ Suppose you have JSON formatted data,
     ]
     
     $ cat cloud-cover-over-stgo.json | toplotly 'Cloud cover over Santiago'
+    
+.. image:: https://pl-amit.s3.amazonaws.com/plots/toplotly.png
+
