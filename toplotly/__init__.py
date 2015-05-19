@@ -122,9 +122,7 @@ def post(filename, data, fileopt='new', title=None, world_readable=True):
     layout = Layout(**layout_kwargs)
     
     fig = Figure(data=dataobj, layout=layout)
-    print fig
     
-    # r = plotly.plotly.plot(fig, filename=filename)
-    # print r
-    
+    r = plotly.plotly.plot(fig, filename=filename)
+    print r
     

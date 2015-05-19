@@ -22,7 +22,7 @@ setup(name='toplotly',
       zip_safe=False,
       install_requires=[
           'click',
-          'requests',
+          'python-dateutil',
           'plotly'
       ],
       extras_require={
